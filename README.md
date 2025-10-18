@@ -7,7 +7,6 @@ An intelligent interviewing system that conducts automated interviews and evalua
 - **Smart PDF Processing**: Upload candidate resumes and job descriptions in PDF format
 - **AI-Powered Interviews**: Conducts structured 5-question interviews with dynamic question generation
 - **Intelligent Scoring**: Evaluates candidate responses with detailed feedback
-- **Local LLM Integration**: Uses Ollama with Gemma model for privacy-focused processing
 - **Vector-Based Retrieval**: Implements FAISS for efficient document similarity search
 - **Interactive UI**: Built with Streamlit for seamless user experience
 
@@ -16,8 +15,7 @@ An intelligent interviewing system that conducts automated interviews and evalua
 ### Prerequisites
 
 - Python 3.8+
-- [Ollama](https://ollama.ai/) installed and running
-- Gemma model downloaded via Ollama
+- Gemma model downloaded via HuggingFace
 
 ### Setup
 
@@ -40,7 +38,7 @@ cp .env.example .env
 
 4. Download the Gemma model:
 ```bash
-ollama pull gemma3:4b
+huggingface-cli download <repo_id>
 ```
 
 ## 🎯 Usage
