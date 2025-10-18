@@ -98,7 +98,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [Streamlit](https://streamlit.io/) for the web interface
 - [LangChain](https://langchain.com/) for LLM orchestration
-- [Ollama](https://ollama.ai/) for local LLM hosting
 - [FAISS](https://faiss.ai/) for vector similarity search
 
 ## 📞 Support
